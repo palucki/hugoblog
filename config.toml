@@ -1,4 +1,4 @@
-baseURL = "https://palucki.github.com/"
+baseURL = "/"
 languageCode = "en-us"
 title = "dev BLOG"
 theme = "minimal"
@@ -8,7 +8,7 @@ googleAnalytics = ""
 [params]
     author = "piotr palucki"
     description = "Developer blog theme powered by Hugo"
-    githubUsername = "#"
+    githubUsername = "#palucki"
     accent = "lightblue"
     showBorder = true
     backgroundColor = "white"

@@ -3,7 +3,7 @@ languageCode = "en-us"
 title = "dev BLOG"
 theme = "minimal"
 disqusShortname = "username" # delete this to disable disqus comments
-googleAnalytics = ""
+googleAnalytics = "UA-114543867-3 "
 
 [params]
     author = "piotr palucki"
@@ -36,23 +36,33 @@ googleAnalytics = ""
     url = "/project/"
     name = "Projects"
     weight = 4
+	
+[[menu.main]]
+    url = "/recipes/"
+    name = "Recipes"
+    weight = 5
 
 # Social icons to be shown on the right-hand side of the navigation bar.
 # The "name" field should match the name of the icon in Font Awesome.
 # The list of available icons can be found at http://fontawesome.io/icons.
 
 [[menu.icon]]
-    url = "mailto:me@example.com"
+    url = "mailto:piotrek.palucki@gmail.com"
     name = "fas fa-envelope"
     weight = 1
 
 [[menu.icon]]
-    url = "https://github.com/username/"
+    url = "https://github.com/palucki/"
     name = "fab fa-github"
     weight = 2
 
 [[menu.icon]]
-    url = "https://www.linkedin.com/in/username/"
+    url = "https://www.linkedin.com/in/piotr-palucki/"
     name = "fab fa-linkedin"
     weight = 3
+
+[[menu.icon]]
+    url = "https://www.upwork.com/freelancers/~010a9057d1126251d5"
+    name = "fas fa-briefcase"
+    weight = 4
 

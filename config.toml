@@ -1,50 +1,84 @@
-baseURL = "https://palucki.github.io/"
+baseurl      = "https://palucki.github.io/"
+title        = "dev BLOG"
 languageCode = "en-us"
-title = "dev BLOG"
-theme = "minimal"
+theme        = "hello-friend-ng"
+paginate     = 10
 disqusShortname = "username" # delete this to disable disqus comments
 googleAnalytics = "UA-114543867-3 "
 
 [params]
-    author = "piotr palucki"
-    description = "Developer blog theme powered by Hugo"
-    githubUsername = "#palucki"
-    accent = "lightblue"
-    showBorder = true
-    backgroundColor = "white"
-    font = "Raleway" # should match the name on Google Fonts!
-    highlight = true
-    highlightStyle = "default"
-    highlightLanguages = ["go", "haskell", "kotlin", "scala", "swift"]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04"
 
+  # Subtitle for home
+  homeSubtitle = "Developer blog theme powered by Hugo"
+
+  # Set disableReadOtherPosts to true in order to hide the links to other posts.
+  disableReadOtherPosts = false
+
+  # Enable sharing buttons, if you like
+  enableSharingButtons = true
+
+  # Metadata mostly used in document's head
+  description = "My new homepage or blog"
+  keywords = "homepage, blog"
+  images = [""]
+
+
+[taxonomies]
+    category = "blog"
+    tag      = "tags"
+    series   = "series"
+
+[languages]
+  [languages.en]
+    title = "Hello Friend NG"
+    subtitle = "A simple theme for Hugo"
+    keywords = ""
+    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+    readOtherPosts = "Read other posts"
+
+    [languages.en.params.logo]
+      logoText = "hello friend ng"
+      logoHomeLink = "/"
+    # or
+    #
+    # path = "/img/your-example-logo.svg"
+    # alt = "Your example logo alt text"
+
+  # And you can even create generic menu
 [[menu.main]]
     url = "/"
+    identifier = "Home"
     name = "Home"
     weight = 1
 
 [[menu.main]]
     url = "/about/"
+    identifier = "About"
     name = "About"
     weight = 2
 
 [[menu.main]]
     url = "/post/"
+    identifier = "Posts"
     name = "Posts"
     weight = 3
 
 [[menu.main]]
     url = "/project/"
+    identifier = "Projects"
     name = "Projects"
     weight = 4
 	
 [[menu.main]]
-    url = "/recipes/"
-    name = "Recipes"
+    url = "/note/"
+    identifier = "Notepad"
+    name = "Notepad"
     weight = 5
 
-# Social icons to be shown on the right-hand side of the navigation bar.
-# The "name" field should match the name of the icon in Font Awesome.
-# The list of available icons can be found at http://fontawesome.io/icons.
 
 [[menu.icon]]
     url = "mailto:piotrek.palucki@gmail.com"

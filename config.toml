@@ -1,5 +1,4 @@
 baseurl      = "https://palucki.github.io/"
-title        = "dev BLOG"
 languageCode = "en-us"
 theme        = "hello-friend-ng"
 paginate     = 10
@@ -13,7 +12,7 @@ googleAnalytics = "UA-114543867-3 "
   dateformNumTime = "2006-01-02 15:04"
 
   # Subtitle for home
-  homeSubtitle = "Developer blog theme powered by Hugo"
+  homeSubtitle = "Programming, tinkering, projects, C++, Qt, Design Patterns"
 
   # Set disableReadOtherPosts to true in order to hide the links to other posts.
   disableReadOtherPosts = false
@@ -34,8 +33,8 @@ googleAnalytics = "UA-114543867-3 "
 
 [languages]
   [languages.en]
-    title = "Hello Friend NG"
-    subtitle = "A simple theme for Hugo"
+    title = "palucki"
+    subtitle = "blog & knowledge base"
     keywords = ""
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
     readOtherPosts = "Read other posts"
@@ -100,3 +99,16 @@ googleAnalytics = "UA-114543867-3 "
     name = "fas fa-briefcase"
     weight = 4
 
+
+# Social icons
+  [[params.social]]
+    name = "email"
+    url  = "mailto:piotrek.palucki@gmail.com"
+
+  [[params.social]]
+    name = "github"
+    url  = "https://github.com/palucki"
+
+  [[params.social]]
+    name = "linkedin"
+    url  = "https://www.linkedin.com/in/piotr-palucki/"

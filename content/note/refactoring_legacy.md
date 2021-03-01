@@ -7,6 +7,10 @@ draft: false
 
 > Note: below you can find my jottings based on [Kate Gregory course](https://www.pluralsight.com/courses/cpp-updating-legacy-code)
 
+{{< table_of_contents >}}
+
+## Introduction
+
 Refactoring legacy code generally means transforming code to be:
 - more expressive,
 - more readable,
@@ -20,17 +24,17 @@ Which parts requires our highest attention?
 
 Boy scout rule: *Always leave the place cleaner that you've found it.*
 
-#### How much time dedicate to refactoring?
+### How much time dedicate to refactoring?
 Take a half of the time from estimation to improve the code
 After that, if the code is better - do all the new way
 If the code is worse - try to think why that happened, remember that, do the old way
 
-### Refactoring process
+## Refactoring process
 
-#### I Use compiler - it's you friend
+### Use compiler - it's you friend
 - do not ignore warnings
 
-#### II Use correct C++ as a C++
+### Use correct C++ as a C++
 - create small abstractions, small classes, 
 - tie variables and logic together under meaningful name,
 - cleanup & housekeeping - we have RAII
@@ -44,7 +48,7 @@ If the code is worse - try to think why that happened, remember that, do the old
 - use C++ casting (easier to find, express intention)
   - `static_cast, dynamic_cast, reinterpret_cast, const_cast`
  
-#### III Use new C++ features
+### Use new C++ features
 
 - Use `auto` : replace old, long declarations with auto (also guarantees no unintialized variables)
 - Use `nulltpr` to avoid wrong overloads:
@@ -65,7 +69,7 @@ If the code is worse - try to think why that happened, remember that, do the old
 
 - Use `enum class` to avoid casting and value mismatch
 
-#### IV Use standard library
+### Use standard library
 
 - `std:;string` instead of `const char*`,
 - use `std::vector` and `std::array` instead of C-style arrays,
@@ -74,7 +78,7 @@ If the code is worse - try to think why that happened, remember that, do the old
 - prefer to pass arguments as (`const)` references, not as pointers,
 - when printing debug logs - create `toString()` method instead of logging to file / console directly. Then it'll be easier to change / disable logging.
 
-#### V Reorganizing code
+### Reorganizing code
 - avoid **arrow code**: 
    
 ``` cpp

@@ -4,7 +4,9 @@ date: 2021-02-24T23:41:29+01:00
 draft: false
 ---
 
-#### Fetch branch (not current) from remote repo (prepare for rebase):
+{{< table_of_contents >}}
+
+## Fetch branch (not current) from remote repo (prepare for rebase):
 	git fetch origin release:release
 
 	

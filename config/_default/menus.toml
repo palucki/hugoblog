@@ -11,22 +11,16 @@
   url = "/docs/qt/"
 
 [[docs]]
-  name = "Prologue"
+  name = "Desgin & architecture"
   weight = 30
-  identifier = "prologue"
-  url = "/docs/prologue/"
+  identifier = "design"
+  url = "/docs/design/"
 
 [[docs]]
-  name = "Recipes"
+  name = "Other"
   weight = 40
-  identifier = "recipes"
-  url = "/docs/recipes/"
-
-[[docs]]
-  name = "Help"
-  weight = 50
-  identifier = "help"
-  url = "/docs/help/"
+  identifier = "other"
+  url = "/docs/other/"
 
 [[main]]
   name = "Blog"
@@ -35,12 +29,12 @@
 
 [[main]]
   name = "Notes"
-  url = "/docs/prologue/introduction/"
+  url = "/docs/introduction.md"
   weight = 20
 
 [[main]]
   name = "About"
-  url = "/docs/prologue/introduction/"
+  url = "about.md"
   weight = 30
 
 [[social]]

@@ -7,8 +7,6 @@ menu:
     parent: "other"
 ---
 
-{{< table_of_contents >}}
-
 ## Fetch branch (not current) from remote repo (prepare for rebase):
 	git fetch origin release:release
 

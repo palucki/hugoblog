@@ -4,7 +4,7 @@ description: "Doks is a Hugo theme helping you build modern documentation websit
 lead: "
 I am glad to see you here. <br>
 Take your time and explore this realm. <br>
-You will encounter find:"
+You will encounter..."
 date: 2020-10-06T08:47:36+00:00
 lastmod: 2020-10-06T08:47:36+00:00
 draft: false

@@ -29,12 +29,12 @@
 
 [[main]]
   name = "Notes"
-  url = "/docs/introduction.md"
+  url = "/docs/other/doks"
   weight = 20
 
 [[main]]
   name = "About"
-  url = "about.md"
+  url = "/about/"
   weight = 30
 
 [[social]]
